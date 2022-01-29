@@ -1,0 +1,50 @@
+body{
+   background-image: url("./hotel2.jpg");
+   background-size: cover;
+   background-position: fill;
+   background-repeat: no-repeat;
+}
+a:hover{
+    color: white;
+}
+.nbc{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background-color: rgb(62, 27, 156);
+    border-width: 1px;
+    border-color: rgb(82, 187, 129);
+    border-style: dashed;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background-color: darksalmon;
+    margin-left: auto;
+}
+li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h2:hover{
+    color: white;
+    text-decoration: wavy;
+    transition: all 1s;
+}
+h2{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: cursive;
+    font-size: xx-large;
+}
+h2:active{
+    color: rgb(42, 16, 102);
+    text-decoration: wavy;
+    transition: all 1s;
+}
+button:hover{
+    color: rgb(3, 49, 1);
+    text-decoration: double;
+    text-decoration-color: black;
+}
